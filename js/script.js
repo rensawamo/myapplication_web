@@ -41,6 +41,48 @@
 				effect:'slide'
 			},
 			play: {
+			      active: false, 
+			      effect: "slide",
+			      interval: 5000, 
+			      auto: true, 
+			      swap: true, 
+			      pauseOnHover: false, 
+			      restartDelay: 2500,
+			}
+		});
+		$("#slides2").slidesjs({
+			width: 256,
+			height:516,
+			navigation:{
+				active:false,
+				effect:'slide'
+			},
+			pagenation:{
+				active:false,
+				effect:'slide'
+			},
+			play: {
+			      active: false, //trueで再生、停止ボタンを表示、falseで非表示
+			      effect: "slide", //自動再生のときのエフェクトを"slide", "fade"から選択
+			      interval: 5000, //再生間隔をミリ秒で指定
+			      auto: true, //trueで自動再生を有効に
+			      swap: true, //falseで再生、停止ボタンを両方常に表示、trueで切り替え
+			      pauseOnHover: false, //trueでマウスホバー時に一時停止
+			      restartDelay: 2500 //最初に戻るときに間隔を遅らせる場合、ミリ秒で指定
+			}
+		});
+		$("#slides3").slidesjs({
+			width: 256,
+			height:516,
+			navigation:{
+				active:false,
+				effect:'slide'
+			},
+			pagenation:{
+				active:false,
+				effect:'slide'
+			},
+			play: {
 			      active: false, //trueで再生、停止ボタンを表示、falseで非表示
 			      effect: "slide", //自動再生のときのエフェクトを"slide", "fade"から選択
 			      interval: 5000, //再生間隔をミリ秒で指定
