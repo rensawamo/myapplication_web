@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* cssにもコメントが入ります */
+
 html,
 body,
 div,
@@ -651,6 +651,9 @@ a img:hover {
   opacity: 0.5;
 }
 
+#btn-download {
+  text-align: center;
+}
 footer {
   /* margin-top: 80px; */
   padding: 50px 0 100px;
@@ -706,7 +709,7 @@ footer small {
   padding: 49px 15px;
   position: absolute;
   z-index: 10;
-  top: 163px;
+  top: 322px;
   left: 50%;
   margin-left: -143px;
 }
