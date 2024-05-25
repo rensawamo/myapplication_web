@@ -131,6 +131,17 @@ a img {
   border: none;
 }
 
+.icn img {
+  width: 100px;
+  height: 100px;
+}
+
+.icon_detail {
+  display: flex;
+  flex-direction: column;
+}
+
+
 article,
 aside,
 details,
