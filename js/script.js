@@ -31,7 +31,7 @@
 		});
 		$("#slides").slidesjs({
 			width: 256,
-			height:550,
+			height:466,
 			navigation:{
 				active:false,
 				effect:'slide'
@@ -52,7 +52,7 @@
 		});
 		$("#slides2").slidesjs({
 			width: 256,
-			height:516,
+			height:550,
 			navigation:{
 				active:false,
 				effect:'slide'
@@ -73,7 +73,7 @@
 		});
 		$("#slides3").slidesjs({
 			width: 256,
-			height:516,
+			height:550,
 			navigation:{
 				active:false,
 				effect:'slide'
