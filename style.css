@@ -720,7 +720,6 @@ footer small {
   padding: 49px 15px;
   position: absolute;
   z-index: 10;
-  top: 322px;
   left: 50%;
   margin-left: -143px;
 }
@@ -732,6 +731,24 @@ footer small {
   top: 173px;
   width: 222px;
 }
+
+#b01 img {
+  width: 300px;
+}
+#b02 img {
+  width: 300px;
+}
+#b03 img {
+  width: 300px;
+}
+#b04 img {
+  width: 300px;
+}
+
+.googleicon {
+  width: 125opx;
+}
+
 #s01 #main-visual ol #b02 {
   width: 254px;
   left: 500px;
@@ -776,7 +793,7 @@ footer small {
 h2 {
   text-align: center;
   line-height: 0.6;
-  padding-top: 173px;
+  padding-top: 100px;
   font-family: Arial, "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
   font-size: 60px;
   color: #524640;
@@ -830,6 +847,8 @@ h2 .text {
   left: 70%;
   top: 100px;
 }
+
+
 
 #s03 {
   height: 700px;

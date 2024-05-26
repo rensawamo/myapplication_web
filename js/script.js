@@ -31,7 +31,7 @@
 		});
 		$("#slides").slidesjs({
 			width: 256,
-			height:516,
+			height:550,
 			navigation:{
 				active:false,
 				effect:'slide'
