@@ -107,14 +107,42 @@ h2 {
 .right {
   float: right; }
 
+  .back01 {
+    background: url(img/background/back_04.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 864px;
+    z-index: 10;
+  }
+  
+  .back02 {
+    background: url(img/background/back_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1000px;
+    z-index: 10;
+  }
+  
+  .back03 {
+    background: url(img/background/back_03.png);
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    z-index: 10;
+  }
+
 a img:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5; }
 
-appicon {
-  width: 20px;
-   }
+  .icn img {
 
+    width: 20%;
+    
+    border-radius: 20%;  
+}
 footer {
   /* margin-top: 80px; */
   padding: 50px 0 100px;
@@ -126,7 +154,7 @@ footer {
 
 #s01 {
   height: 100%;
-  background: url(img/background/back_04.png) 50% 0 no-repeat; }
+}
   #s01 #s01-header {
     width: 96%;
     margin: 0 auto;
@@ -144,9 +172,19 @@ footer {
        }
       #s01 #s01-header #social-btn img {
         width: 90%; }
+
+        #main-visual h2 {
+
+          width: 100%;}
+          #title2 {
+            margin-top: 15%;
+          }
+          #title2 img {
+            width: 90%;
+          }
   #s01 #main-visual {
     width: 100%;
-    height: 480px;
+    height: 400px;
     margin: 0 auto;
     position: relative; }
     #s01 #main-visual h1 {
@@ -162,7 +200,6 @@ footer {
       position: absolute;
       z-index: 1;
       left: 50%;
-      top: 120px;
       margin-left: -82px; }
       #s01 #main-visual #slider ul li {
         width: 149px; }
@@ -176,7 +213,7 @@ footer {
     #s01 #main-visual ol #b01 {
       width: 35%;
       top: 32%;
-      left: 6%; }
+      left: 2%; }
     #s01 #main-visual ol #b02 {
       top: 30%;
       left: 64%; }
@@ -186,6 +223,7 @@ footer {
     #s01 #main-visual ol #b04 {
       top: 59%;
       left: 64%; }
+   
 
 #gnav {
   display: none; }
@@ -255,7 +293,8 @@ footer {
 
 h2 {
   font-size: 48px;
-  padding-top: 20%; }
+  width: 90%;
+ }
   h2 .text {
     font-size: 16px; }
 
@@ -264,7 +303,9 @@ h2 {
   margin-top: 10%;
   position: relative;
   z-index: 20;
-  background: url(img/bg_02.jpg) 50% 0 no-repeat; }
+  background: url(img/background/back_2.png) 50% 0 no-repeat; }
+
+
   #s02 .inner {
     height: 100%;
     width: 96%;
@@ -306,14 +347,11 @@ h2 {
       #btn-download {
         text-align: center;
       }
-    .appicon {
-      width: 20px;
-    }
-
+    
 #s03 {
   width: 100%;
   z-index: 20;
-  background: url(img/bg_03.jpg) 50% 0 no-repeat; }
+  background: url(img/background/back_03.png) 50% 0 no-repeat; }
   #s03 .inner {
     height: 80%;
     width: 96%;
@@ -354,7 +392,7 @@ h2 {
 #s04 {
   width: 100%;
   z-index: 20;
-  background: url(img/bg_04.jpg) 50% 0 no-repeat; }
+ }
   #s04 .inner {
     height: 100%;
     width: 96%;
