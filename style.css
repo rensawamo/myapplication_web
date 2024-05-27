@@ -667,6 +667,7 @@ a img:hover {
 }
 
 .btn-download {
+  
   margin-top: 180px;
 }
 footer {
@@ -759,13 +760,18 @@ footer small {
 }
 .back01 {
   background: url(img/background/back_04.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   height: 864px;
-
   z-index: 10;
 }
 
 .back02 {
   background: url(img/background/back_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   height: 1000px;
   z-index: 10;
 }
@@ -773,6 +779,9 @@ footer small {
 .back03 {
   background: url(img/background/back_03.png);
   height: 1000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   z-index: 10;
 }
 

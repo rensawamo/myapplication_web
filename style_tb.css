@@ -71,7 +71,7 @@ h2 {
     font-size: 20px; }
 
 #slider {
-  background: url(img/bg_slider.png) 0 0 no-repeat;
+  background: url(img/background/de.png) 0 0 no-repeat;
   background-size: contain; }
   #slider li {
     margin: 0 auto;

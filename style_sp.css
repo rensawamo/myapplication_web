@@ -57,7 +57,8 @@ body {
   height: 100%;
   line-height: 1.6;
   font-family: 'Hiragino Kaku Gothic Pro',Meiryo,sans-serif;
-  background-color: #F9F4ED; }
+  background-color: #F9F4ED;
+ }
 
 h2 {
   text-align: center;
@@ -71,7 +72,7 @@ h2 {
     font-size: 20px; }
 
 #slider {
-  background: url(img/bg_slider.png) 0 0 no-repeat;
+  background: url(img/background/de.png) 0 0 no-repeat;
   background-size: contain; }
   #slider li {
     margin: 0 auto;
@@ -110,6 +111,10 @@ a img:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5; }
 
+appicon {
+  width: 20px;
+   }
+
 footer {
   /* margin-top: 80px; */
   padding: 50px 0 100px;
@@ -121,7 +126,7 @@ footer {
 
 #s01 {
   height: 100%;
-  background: url(img/bg_01.jpg) 50% 0 no-repeat; }
+  background: url(img/background/back_04.png) 50% 0 no-repeat; }
   #s01 #s01-header {
     width: 96%;
     margin: 0 auto;
@@ -170,7 +175,7 @@ footer {
         width: 100%; }
     #s01 #main-visual ol #b01 {
       width: 35%;
-      top: 20%;
+      top: 32%;
       left: 6%; }
     #s01 #main-visual ol #b02 {
       top: 30%;
@@ -298,6 +303,12 @@ h2 {
     text-align: center; }
     #s02 .img img {
       width: 80%; }
+      #btn-download {
+        text-align: center;
+      }
+    .appicon {
+      width: 20px;
+    }
 
 #s03 {
   width: 100%;
