@@ -1087,3 +1087,44 @@ h2 .text {
 #s05 .unit .info .btn-tweet {
   padding-top: 10px;
 }
+
+.faq-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  
+  border-radius: 10px;
+}
+.faq-item {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.faq-item .question {
+  font-size: 18px;
+  font-weight: bold;
+  
+  margin-bottom: 5px;
+}
+.faq-item .answer {
+  font-size: 16px;
+  
+}
+.share-section {
+  text-align: center;
+  margin: 30px 0;
+}
+.share-section a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #f6f6f6;
+  font-size: 16px;
+}
+.share-section img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+
