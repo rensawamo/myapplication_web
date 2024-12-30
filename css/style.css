@@ -1376,7 +1376,7 @@ header .appatore_button {
 }
 
 .point .point_all .point_content .point_text p {
-    margin: 0 auto;
+    margin: 10 auto;
     font-weight: 600;
     width: 23.4375vw;
     font-size: 1.25vw;
