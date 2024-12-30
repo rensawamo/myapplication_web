@@ -1,173 +1,160 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 
 <head>
-    <meta charset="UTF-8">
-    <title>アプリ紹介</title>
-    <meta http-equiv="Content-Style-Type" content="text/css" />
-    <meta http-equiv="Content-Script-Type" content="text/javascript" />
-    <meta name="viewport"
-        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="style.css" media="(min-width: 1025px)">
-    <link rel="stylesheet" type="text/css" href="style_sm.css"
-        media="screen and (min-width: 787px) and (max-width: 1024px)">
-    <link rel="stylesheet" type="text/css" href="style_tb.css"
-        media="screen and (min-width: 481px) and (max-width: 786px)">
-    <link rel="stylesheet" type="text/css" href="style_sp.css" media="screen and (max-width: 480px)">
-    <link rel="shortcut icon" href="favicon.ico" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="個人開発アプリ公式サイト" />
-    <meta property="og:description" content="生活シリーズから言語シリーズまで様々なアプリを紹介します" />
-    <meta property="og:site_name" content="Application syokai" />
 
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-57RW4WR');
-    </script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/reset.css?date=<?=date('YmdGis', filemtime( 'css/reset.css' ));?>">
+        <link rel="stylesheet" href="../css/style.css?date=<?=date('YmdGis', filemtime( 'css/style.css' ));?>">
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <!-- Add the slick-theme.css if you want default styling -->
+        <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"> -->
 
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="image/favicon_package/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon_package/favicon_32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="image/favicon_package/favicon_16x16.png">
+        <link rel="mask-icon" href="image/favicon_package/safari-pinned-tab.svg" color="#000">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Control the automatic link function of TELL&MAIL&ADDRESS  -->
+        <meta name="format-detection" content="email=no,telephone=no,address=no">
+        <title>開発者紹介</title>
+        <meta name="title" content="開発者紹介">
+        <meta name="description" content="クリエイターのプロフィール紹介ページ - スキルや趣味、得意分野について詳しく解説！">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="開発者紹介 - クリエイターのプロフィール">
+        <meta property="og:description" content="クリエイターのスキルや趣味、プロジェクト経験について詳しく知ることができます。">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:title" content="開発者紹介 - クリエイターのプロフィール">
+        <meta property="twitter:description" content="クリエイターのスキルや趣味、プロジェクト経験について詳しく知ることができます。">
+        <!-- Meta Tags Generated with https://metatags.io -->
+    </head>
+    <title>Introduction</title>
+    <style>
+    </style>
 </head>
 
+<body>
+    <div class="top-container">
+        <div class="title">開発者紹介</div>
+        <div class="subtitle">Software Developer</div>
 
-<body link="#F7505A">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57RW4WR" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <section id="s01" class="back01" class="section">
-
-
-        <div id="main-visual">
-            <h2 id="title2"><img src="img/title/LanguageSeries.png" alt="言語シリーズ"><span class="text"></h2>
-                
-            <div id="slider">
-
-                <ul id="slides">
-                    <li><img src="img/language/wordlist.png" alt="image01"></li>
-                    <li><img src="img/language/words.png" alt="image02"></li>
-                    <li><img src="img/language/quiz_topic.png" alt="image03"></li>
-                    <li><img src="img/language/quiz.png" alt="image03"></li>
-                </ul>
+        <div class="profiles">
+            <div class="profile">
+                <img src="img/common/profile.png" alt="REN">
             </div>
-            <ol>
-                <li id="b01"><img src="img/fukidasi/point1.png" alt="Point1"></li>
-                <li id="b02"><img src="img/fukidasi/point2.png" alt="Point2"></li>
-                <li id="b03"><img src="img/fukidasi/point3.png" alt="Point3"></li>
-                <li id="b04"><img src="img/fukidasi/point4.png" alt="Point4"></li>
-            </ol>
         </div>
 
-        <div id="btn-download">
-            <p class="appicon"><a href="https://apps.apple.com/app/%E9%9F%93%E5%9B%BD%E8%AA%9E%E5%88%9D%E7%B4%9A/id6503278804" target="_blank"><img src="img/common/apple.svg"
-                        alt="apple play"></a></p>
+        <div class="profile-text-container">
+            <p class="profile-text">
+                エンジニアとして会社員をしています。主にモバイルアプリ開発が主な仕事です。<br>
+                それ以外にも、自分のアイデアを形にすることが好きで、会社が始まる朝の時間と、<br>休みの日を利用して
+                自分のアプリの開発を行なっています。<br>
+                少しでもお役に立てれば嬉しいです。<br>
+            </p>
         </div>
-    </section>
-    <section id="s01" class="back02">
-        <div id="main-visual" class="main-visual2">
-            <h2><img src="img/title/LifeHack.png" alt="LifeHack"><span class="text"></h2>
 
-            <div class="display-app">
-                <p class="icn"><img src="img/lifehack/appicon.png" alt="icon"></p>
-                <p class="lead">日々の生活を管理しカレンダーやグラフで振り返ろう！</p>
+        <div class="skills">
+            <h2>開発技術スタック</h2>
+            <a href="https://developer.apple.com/swift/" target="_blank">
+                <img src="img/skill/swift.png" alt="Swift">
+            </a>
+            <a href="https://flutter.dev/" target="_blank">
+                <img src="img/skill/flutter.png" alt="Flutter">
+            </a>
+            <a href="https://golang.org/" target="_blank">
+                <img src="img/skill/golang_logo.png" alt="Golang">
+            </a>
+            <a href="https://azure.microsoft.com/" target="_blank">
+                <img src="img/skill/azure.png" alt="Azure">
+            </a>
+            <a href="https://www.figma.com/" target="_blank">
+                <img src="img/skill/figma.png" alt="Figma">
+            </a>
+        </div>
+
+        <div class="pastime">
+            <h2>得意言語</h2>
+            <div class="pastime-icons">
+                <img src="img/language/japan.png" alt="観る">
+                <img src="img/language/koria.png" alt="撮る">
             </div>
-            <div id="slider">
-                <ul id="slides2">
-                    <li><img src="img/lifehack/calender.png" alt="image01"></li>
-                    <li><img src="img/lifehack/task.png" alt="image02"></li>
-                    <li><img src="img/lifehack/memo.png" alt="image03"></li>
-                    <li><img src="img/lifehack/diary.png" alt="image03"></li>
-                </ul>
-            </div>
-            <ol>
-                <li id="b02_1"><img src="img/fukidasi/point2_1.png" alt="Point1"></li>
-                <li id="b02_2"><img src="img/fukidasi/point2_2.png" alt="Point2"></li>
-                <li id="b02_3"><img src="img/fukidasi/point2_3.png" alt="Point3"></li>
-                <li id="b02_4"><img src="img/fukidasi/point2_4.png" alt="Point4"></li>
-            </ol>
-        </div>
-        <div id="btn-download">
-            <p class="appicon btn-download"><a href="https://apps.apple.com/app/lifehack/id6467121460" target="_blank"><img src="img/common/apple.svg"
-                        alt="apple play"></a></p>
-        </div>
-    </section>
-
-
-    <section id="s01" class="back03">
-        <div id="main-visual" class="main-visual3">
-            <h2><img src="img/title/LifeMind.png" alt="LifeMind"><span class="text"></h2>
-
-
-            <div class="display-app">
-                <p class="icn"><img src="img/lifemind/appicon.png" alt="icon"></p>
-                <p class="lead">画像とテキストで記録するマインドマップ</p>
-            </div>
-            <div id="slider">
-                <ul id="slides3">
-                    <li><img src="img/lifemind/tile.png" alt="image01"></li>
-                    <li><img src="img/lifemind/mind.png" alt="image02"></li>
-                    <li><img src="img/lifemind/expand.png" alt="image03"></li>
-                    <li><img src="img/lifemind/user.png" alt="image03"></li>
-                </ul>
-            </div>
-            <ol>
-                <li id="b03_1"><img src="img/fukidasi/point3_1.png" alt="Point1"></li>
-                <li id="b03_2"><img src="img/fukidasi/point3_2.png" alt="Point2"></li>
-                <li id="b03_3"><img src="img/fukidasi/point3_3.png" alt="Point3"></li>
-                <li id="b03_4"><img src="img/fukidasi/point3_4.png" alt="Point4"></li>
-            </ol>
-        </div>
-        <div id="btn-download">
-            <p class="appicon btn btn-download"><a href="https://apps.apple.com/app/life-mind/id6496865571" target="_blank"><img src="img/common/apple.svg"
-                        alt="apple play"></a></p>
-        </div>
-    </section>
-      <!-- FAQ セクション -->
-    <div class="faq-section" style="padding: 20px;">
-        <div class="faq-item">
-            <div class="question">Q: アプリをアンインストールするとメモデータは消えますか？</div>
-            <div class="answer">A: はい。データは端末に保存しているので消えてしまいます。ログイン情報はクラウドに保管されています。</div>
-        </div>
-        <div class="faq-item" style="margin-top: 10px;">
-            <div class="question">Q: Android版はありますか？</div>
-            <div class="answer">A: Androidアプリは、まだ開発していません。これから開発する予定です。</div>
         </div>
     </div>
 
-    
-    <div class="faq-item" style="text-align: center;">
-        <div class="question" style="font-size: 24px; margin-bottom: 20px;">Contact</div>
-        <a href="mailto:tcfiy62634@yahoo.co.jp" style="color: #000; font-size: 18px; display: block; margin-bottom: 10px;">
-            Email
-        </a>
+    <div class="content">
+        <h2>
+            <nobr><span>勉強</span>は楽しいもの<br class="sp"><br>というコンセプトで<br>開発してます！<br></nobr>
+        </h2>
+        <img src="img/common/cup-caffee-beans.png" alt="">
+    </div>
+    <div class="introduction-topik" id="introduction-topik">
+        <h2>
+            <nobr><span>TOPIK</span>攻略シリーズ</nobr>
+        </h2>
+        <div class="fv_box">
+            <p>初級〜中級に対応中！</p>
+            <div class="fv_img_box">
+                <img src="../img/topik/topik_image_card.png" class="topic_image_card" alt="Topikアプリたち">
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="/topik/">
+                <button class="view-more-button">
+                    もっとみる <span class="icon">▶</span>
+                </button>
+            </a>
+        </div>
     </div>
 
- 
+    <div class="introduction-eiken" id="first-view">
+        <h2>
+            <nobr><span>英検</span>攻略シリーズ</nobr>
+        </h2>
+        <div class="fv_box">
+            <p>4,5級に対応中！</p>
+            <div class="fv_img_box">
+                <img src="../img/eiken/eiken_image_card.png" class="topic_image_card" alt="英検アプリたち">
+            </div>
 
+        </div>
+        <div class="button-container">
+            <a href="/eiken/">
+                <button class="view-more-button">
+                    もっとみる <span class="icon">▶</span>
+                </button></a>
+        </div>
+    </div>
 
-    <footer style="text-align: center; padding: 20px; background-color: #333;">
-     
-        <a href="/privacypolicy/" target="_blank" style="color:#f6f6f6;  display: block; margin-bottom: 35px;">プライバシーポリシー</a>
-        <a href="/terms_of_service/" target="_blank" style="color:#f6f6f6;  display: block;">利用規約</a>
+    <div class="contact">
+        <div class="contact_box">
+            <h2>お問い合わせ</h2>
+            <hr>
+            <p>ご意見やご要望ございましたら、<br class="sp">お気軽にお問い合わせください。<br class="sp">
+            </p>
+            <button>
+                <a href="mailto:tcfiy62634@yahoo.co.jp" target="_blank"><span>Email</span><span class="ch"></span>
+                </a>
+            </button>
+        </div>
+    </div>
+
+    <footer>
+        <nav class="footer-links">
+            <a href="/privacypolicy">プライバシーポリシー</a> |
+            <a href="/terms_of_service">利用規約</a>
+        </nav>
     </footer>
-    
-    
-    
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="js/jquery.slides.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
 
 </body>
 
