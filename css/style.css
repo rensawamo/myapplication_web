@@ -2178,6 +2178,11 @@ footer p {
     }
 }
 
+footer a {
+    color: wheat;
+    text-decoration: underline;
+}
+
 li {
     cursor: pointer;
 }
